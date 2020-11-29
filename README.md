@@ -1,17 +1,17 @@
 # Assignment 9
 
 #### To-Do Webapp using NodeJs, Mongoose, MongoDb, Express, React (MERN Stack)  
->fetch all existing todo items using Todo Resource
->add a todo item using Todo Resource
->update a todo item using Todo Resource
->delete a todo item using Todo Resource
+>fetch all existing todo items using Todo Resource  
+>add a todo item using Todo Resource  
+>update a todo item using Todo Resource  
+>delete a todo item using Todo Resource  
   
 ToDo Object Attributes:
->id
->title
->description
->createdDate
->DueDate
+>id  
+>title  
+>description  
+>createdDate  
+>DueDate  
 
 
   
@@ -33,18 +33,18 @@ ToDo Object Attributes:
 
 
 #### Test Cases for backend via POSTMAN
-Use PostMan to test the REST APIs on GET, PUT, POST, DELETE
->GET localhost:3005/todos/
->GET localhost:3005/todos/{:id}
->POST localhost:3000/todos/  -> JSON body example
+>Use PostMan to test the REST APIs on GET, PUT, POST, DELETE  
+>GET localhost:3005/todos/  
+>GET localhost:3005/todos/{:id}  
+>POST localhost:3000/todos/  -> JSON body example  
 ```
 {
 "title": "My first Todo updated",
 "description": "My first Todo"
 }
 ```
->PUT localhost:3000/todos/{:id}
->DELET localhost:3000/todos/{:id}
+>PUT localhost:3000/todos/{:id}  
+>DELET localhost:3000/todos/{:id}  
 
 #### Test Cases for Entire App via front end react app
 >Add, view, mark complete the todo task and verify it in the PostMan
@@ -61,5 +61,5 @@ ______________________
 [MIT License](https://opensource.org/licenses/MIT)
 
 ___________________________
-Connect with me on LinkedIn : [Deepak Lokwani](https://www.linkedin.com/in/deepaklokwani1/)
+Connect with me on LinkedIn : [Deepak Lokwani](https://www.linkedin.com/in/deepaklokwani1/)  
 NUID: 001316769  
