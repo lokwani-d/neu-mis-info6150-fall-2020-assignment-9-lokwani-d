@@ -1,0 +1,27 @@
+body {
+  background-color: black; 
+  padding: 50px 80px;
+}
+
+.tasksToolbar {
+  padding: 0px;
+  margin: 0 0;
+  // border-radius: 5%;
+ }
+
+
+ .tasksToolbar .tasksToolbar-title {
+  align-items: center;
+  text-align: center;
+  background-color: #536472;
+  padding: 30px 0px;
+  color: white;
+  margin: 0 0;
+  // border-bottom: 5px solid #fff;
+ }
+ .tasksToolbar .tasksToolbar-title:hover{
+   opacity: 0.96;
+ }
+ h3{
+   margin: 0;
+ }

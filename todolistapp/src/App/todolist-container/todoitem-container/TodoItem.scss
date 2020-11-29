@@ -1,0 +1,42 @@
+div.ItemContainer{
+    background: #575757;
+    padding:25px;
+    color: white;
+    text-shadow: #303030;
+    border-bottom: 1px #ccc dotted;
+}
+
+div.ItemContainer:hover{
+    background: #303030;
+    padding:25px;
+    color: rgb(182, 182, 182);
+    transition: all ease-in-out 0.2s;
+
+}
+#Selected{
+    background: #303030;
+    padding:25px;
+    color: rgb(182, 182, 182);
+    transition: all ease-in-out 0.2s;
+}
+
+div.ItemContainer .text-strike{
+    text-decoration: line-through;
+    transition: all ease-in-out 0.2s;
+
+}
+
+button{
+    background-color: #464646;
+    margin: 0px 0px 0px 5.5px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    transition: all ease-in-out 0.2s;
+}
+
+button:hover{
+    background-color: #ccc;
+}
