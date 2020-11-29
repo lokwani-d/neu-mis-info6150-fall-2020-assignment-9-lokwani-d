@@ -1,6 +1,7 @@
 import React from 'react'
 import './ExpandTodo.scss'
 
+// This class contains the component that would be displayed to show the details of the to-do
 class ExpandTodo extends React.Component {
    
   

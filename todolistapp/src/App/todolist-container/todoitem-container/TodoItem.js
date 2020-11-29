@@ -3,12 +3,13 @@ import './TodoItem.scss';
 import { FcCheckmark , FcUndo, FcExpand, FcCollapse, FcDeleteRow} from "react-icons/fc";
 import ExpandTodo from './ExpandTodo'
 
+// This class is my component which holds all my todo-items ad process the each todo-item for rendering
 class TodoItem extends React.Component{
 
     state={
         isExpanded : false,
     }
-
+// This will togle the expanded view of the to-do
     toggle = () => this.setState(
         { isExpanded: !this.state.isExpanded }
     )
@@ -16,6 +17,7 @@ class TodoItem extends React.Component{
     render() {
         const {id, title}= this.props.todo;
 
+        // It renders a titiel and three task buttons
     return (
     <div className="ItemContainer">
         <div  className={this.props.todo.completed ? 'text-strike' : null}

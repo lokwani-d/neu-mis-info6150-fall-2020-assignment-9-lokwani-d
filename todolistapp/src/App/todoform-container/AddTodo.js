@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './AddTodo.scss'
 
+// This component class adds my new todo by invoking a fetch post on the API
 class AddTodo extends Component {
     
     state={
@@ -21,7 +22,7 @@ class AddTodo extends Component {
     }
     
     onChange=(e)=> this.setState({[e.target.name]: e.target.value});
-
+// This components renders a form for the user to fill in the details
     render() {
     
         return (
